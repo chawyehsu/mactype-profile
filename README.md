@@ -4,7 +4,7 @@
 
 A MacType Profile using the XHei WP font family. Designed for 100% screen scaling, by [Chawye Hsu](https://github.com/h404bi).
 
-To use this profile, you'll need to install the XHei WP 6th font family: https://bbs.themex.net/showthread.php?t=16898387
+To use this profile, you'll need to install the `XHei WP` font family from the XHei 6th fonts: https://bbs.themex.net/showthread.php?t=16898387
 
 
 

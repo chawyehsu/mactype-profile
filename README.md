@@ -4,7 +4,6 @@
 
 A [MacType](https://github.com/snowie2000/mactype) Profile using the XHei WP font family.
 Designed for 100% screen scaling, i.e. non-HiDPI, by [Chawye Hsu](https://github.com/chawyehsu).
-
 To use this profile by default, you'll need to install the `XHei WP` font family from the XHei 6th fonts:
 > https://bbs.themex.net/showthread.php?t=16898387 ([Baidu Pan mirror](https://pan.baidu.com/s/1VKBnGvMHSgzofOe_rythuw) `hxma`)
 
@@ -26,4 +25,4 @@ still apply the other settings of this profile to the system font.
 
 ## License
 
-The profile is given to the Public Domain.
+The profile is given to the [Public Domain](LICENSE).

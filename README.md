@@ -22,6 +22,7 @@ still apply the other settings of this profile to the system font.
 ## References
 
 - [Chromium based browsers renderer injection issue](https://github.com/snowie2000/mactype/issues/597#issuecomment-564949519)
+- [Workaround for Chrome 78+](https://github.com/snowie2000/mactype/wiki/Google-Chrome#workaround-for-chrome-78)
 
 ## License
 

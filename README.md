@@ -1,6 +1,6 @@
 # Chawye Hsu's MacType Profile
 
-![version](https://img.shields.io/badge/Version-2.0.0-blue.svg?style=flat-square) ![license](https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat-square)
+![version](https://img.shields.io/badge/Version-3.0.0-blue.svg?style=flat-square) ![license](https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat-square)
 
 A [MacType](https://github.com/snowie2000/mactype) Profile using the XHei WP font family.
 Designed for 100% screen scaling, i.e. non-HiDPI, by [Chawye Hsu](https://github.com/chawyehsu).

@@ -1,11 +1,11 @@
 # Chawye Hsu's MacType Profile
 
-![version](https://img.shields.io/badge/Version-3.0.0-blue.svg?style=flat-square) ![license](https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat-square)
+[![version][version-svg]][version-link] [![license][license-svg]][license-link]
 
-A [MacType](https://github.com/snowie2000/mactype) Profile using the XHei WP font family.
+A [MacType][mactype-link] Profile using the XHei WP font family.
 Designed for 100% screen scaling, i.e. non-HiDPI, by [Chawye Hsu](https://github.com/chawyehsu).
 To use this profile by default, you'll need to install the `XHei WP` font family from the XHei 6th fonts:
-> https://bbs.themex.net/showthread.php?t=16898387 ([Baidu Pan mirror](https://pan.baidu.com/s/1VKBnGvMHSgzofOe_rythuw) `hxma`)
+> https://bbs.themex.net/showthread.php?t=16898387 ([Baidu Pan mirror][baidupan-link] `hxma`)
 
 If you don't want to install the fonts and don't want to use font substitutions,
 then you can turn font substitutions off by setting `FontSubstitutes=0`. You can
@@ -20,9 +20,18 @@ still apply the other settings of this profile to the system font.
 
 ## References
 
-- [Chromium based browsers renderer injection issue](https://github.com/snowie2000/mactype/issues/597#issuecomment-564949519)
-- [Workaround for Chrome 78+](https://github.com/snowie2000/mactype/wiki/Google-Chrome#workaround-for-chrome-78)
+- [Chromium based browsers renderer injection issue][reference-1]
+- [Workaround for Chrome 78+][reference-2]
 
 ## License
 
-The profile is given to the [Public Domain](LICENSE).
+The profile is given to the [Public Domain][license-link].
+
+[version-svg]: https://img.shields.io/badge/Version-3.1.0-blue.svg?style=flat-square
+[version-link]: chawyehsu.ini
+[license-svg]: https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat-square
+[license-link]: LICENSE
+[mactype-link]: https://github.com/snowie2000/mactype
+[baidupan-link]: https://pan.baidu.com/s/1VKBnGvMHSgzofOe_rythuw
+[reference-1]: https://github.com/snowie2000/mactype/issues/597#issuecomment-564949519
+[reference-2]: https://github.com/snowie2000/mactype/wiki/Google-Chrome#workaround-for-chrome-78

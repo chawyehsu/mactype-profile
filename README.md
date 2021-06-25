@@ -4,18 +4,28 @@
 
 > A [MacType][mactype-link] Profile designed and maintained by [Chawye Hsu][chawyehsu].
 
-This profile was originally only designed for 100% screen scaling, i.e. non-HiDPI.
+## Usage
+
+This profile was originally designed only for 100% screen scaling, i.e. non-HiDPI.
 However, since it's designed for 100% screen scaling, it should work on any higher
 DPI. I've used it on a 125% screen scaling nowadays.
 
-To use this profile you'll need to install the `XHei WP` font family from the XHei
-6th fonts:
+To use this profile you'll need to install the `XHei WP` font family from the
+`IoF` font set:
 
 > https://bbs.themex.net/showthread.php?t=16898387
 
 If you don't want to install the fonts and don't want to use font substitutions,
 then you can turn font substitutions off by setting `FontSubstitutes=0`. You can
 still apply the other settings of this profile to the system font.
+
+In theory, the font rendering settings of this profile can be used with any other
+typeface. Therefore you can replace those `XHei`s substitutions listed in the
+`[FontSubstitutes]` section and `Font` variable in the `[Preview]` section with
+the typeface you want to use. (I've tested fonts other than `XHei WP`, see
+references below)
+
+To use, simply put `chawyehsu.ini` into MacType's `ini` folder then apply it.
 
 ## Screenshots
 

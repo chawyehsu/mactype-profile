@@ -106,6 +106,7 @@ font.
 ## References
 
 - [Chromium based browsers renderer injection issue][reference-1]
+- [Titlebar rendering issue][reference-4]
 - [Workaround for Chrome 78+][reference-2]
 - [Screenshots that using this profile with HarmonyOS Sans][reference-3]
 
@@ -127,3 +128,4 @@ The profile is given to the [Public Domain][license-link].
 [reference-1]: https://github.com/snowie2000/mactype/issues/597#issuecomment-564949519
 [reference-2]: https://github.com/snowie2000/mactype/wiki/Google-Chrome#workaround-for-chrome-78
 [reference-3]: https://github.com/snowie2000/mactype/issues/557#issuecomment-867774860
+[reference-4]: https://github.com/snowie2000/mactype/search?q=titlebar&type=issues

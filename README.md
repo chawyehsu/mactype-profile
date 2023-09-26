@@ -124,12 +124,12 @@ it in [#3][troubleshooting-1].
 
 This may occur on Firefox-based browsers resulting complete unavailable to browse
 web pages containing CJK characters. There is a [Zhihu][troubleshooting-2] topic
-discussing about the same issue. The issue was discovered on Firefox 100 for the
-first time, later versions are also affected. A [bug report][troubleshooting-3]
-has been submitted to Bugzilla, however it was closed as incompleted due to inactive.
+discussing the same issue. The issue was discovered on Firefox 100 for the first time,
+later versions are also affected. A [bug report][troubleshooting-3] has been submitted
+to Bugzilla, however it was closed as incompleted due to inactive.
 
 You may try to open `about:config` and set `security.sandbox.content.win32k-disable`
-to **`false`** to see if it could mitigate. It is suggested to discuss on the bug
+to **`false`** to see if it could mitigate. It is suggested discussing on the bug
 report page, that may help Firefox developers to fix this bug.
 
 ## References

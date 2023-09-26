@@ -113,6 +113,25 @@ Anything else? Typeface is a interesting field to me. Therefore, I might
 try new fonts as time goes on, such as the [HarmonyOS Sans][harmonyos-sans]
 font.
 
+## Troubleshooting
+
+**1. Emojis are grayed**
+
+This is a known issue about MacType working with browsers. You may read more about
+it in [#3][troubleshooting-1].
+
+**2. CJK characters become white block under Firefox family browsers**
+
+This may occur on Firefox-based browsers resulting complete unavailable to browse
+web pages containing CJK characters. There is a [Zhihu][troubleshooting-2] topic
+discussing about the same issue. The issue was discovered on Firefox 100 for the
+first time, later versions are also affected. A [bug report][troubleshooting-3]
+has been submitted to Bugzilla, however it was closed as incompleted due to inactive.
+
+You may try to open `about:config` and set `security.sandbox.content.win32k-disable`
+to **`false`** to see if it could mitigate. It is suggested to discuss on the bug
+report page, that may help Firefox developers to fix this bug.
+
 ## References
 
 - [Chromium based browsers renderer injection issue][reference-1]
@@ -135,6 +154,9 @@ The profile is given to the [Public Domain][license-link].
 [iof-final]: https://bbs.themex.net/showthread.php?t=16898387
 [themex-link]: https://bbs.themex.net/forumdisplay.php?f=90
 [harmonyos-sans]: https://www.hanyi.com.cn/custom-font-case-7
+[troubleshooting-1]: https://github.com/chawyehsu/mactype-profile/issues/3
+[troubleshooting-2]: https://www.zhihu.com/question/532158431
+[troubleshooting-3]: https://bugzilla.mozilla.org/show_bug.cgi?id=1769811
 [reference-1]: https://github.com/snowie2000/mactype/issues/597#issuecomment-564949519
 [reference-2]: https://github.com/snowie2000/mactype/wiki/Google-Chrome#workaround-for-chrome-78
 [reference-3]: https://github.com/snowie2000/mactype/issues/557#issuecomment-867774860

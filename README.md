@@ -8,7 +8,8 @@
 
 This profile was originally designed only for 100% screen scaling, i.e. non-HiDPI.
 However, since it's designed for 100% screen scaling, it should work on any higher
-DPI. I've used it on a 125% screen scaling nowadays.
+DPI, though people using HiDPI devices may give up MacType. I've used it on a 125%
+screen scaling nowadays.
 
 To use this profile you'll need to install the `XHei WP` font family from the
 `IoF` font set:
@@ -33,6 +34,9 @@ To use, simply put `chawyehsu.ini` into MacType's `ini` folder then apply it.
 |---------|--------|
 | ![](common-disable.png) | ![](common-enable.png) |
 | ![](directwrite-disable.png) | ![](directwrite-enable.png) |
+
+Note: They were captured under a 125% screen scaling DPI. There were also screenshots,
+which can be found [here][old-screenshots], captured under the standard (100%) DPI.
 
 ## History
 
@@ -120,7 +124,13 @@ font.
 This is a known issue about MacType working with browsers. You may read more about
 it in [#3][troubleshooting-1].
 
-**2. CJK characters become white block under Firefox family browsers**
+**2. The text becomes blurry compared with the default Windows**
+
+But this is how MacType work, doesn't it? A replacement of font rendering/rasterization
+from a sharp but distorted way to a kinda blurry but shaped way. Anyway, that's a
+trade-off or more like a preference towards font rendering.
+
+**3. CJK characters become white block under Firefox family browsers**
 
 This may occur on Firefox-based browsers resulting complete unavailable to browse
 web pages containing CJK characters. There is a [Zhihu][troubleshooting-2] topic
@@ -150,6 +160,7 @@ The profile is given to the [Public Domain][license-link].
 [chawyehsu]: https://github.com/chawyehsu
 [mactype-link]: https://github.com/snowie2000/mactype
 [baidupan-link]: https://pan.baidu.com/s/1VKBnGvMHSgzofOe_rythuw
+[old-screenshots]: https://github.com/chawyehsu/mactype-profile/tree/d0dd78bdc9f0ffd7e51facd412eadedddafd8d42
 [windows8-bar]: https://tieba.baidu.com/f?kw=windows8
 [iof-final]: https://bbs.themex.net/showthread.php?t=16898387
 [themex-link]: https://bbs.themex.net/forumdisplay.php?f=90

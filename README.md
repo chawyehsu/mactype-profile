@@ -1,42 +1,47 @@
 # Chawye Hsu's MacType Profile
 
+> A [MacType][mactype-link] profile created and maintained by [Chawye Hsu][chawyehsu].
+
 [![version][version-svg]][version-link] [![license][license-svg]][license-link]
 
-> A [MacType][mactype-link] Profile designed and maintained by [Chawye Hsu][chawyehsu].
-
 ## Usage
+
+To get started, simply put the `chawyehsu.ini` file into MacType's `ini` folder
+and then enable it.
+
+![preview](preview.png)
 
 This profile was originally designed only for 100% screen scaling, i.e. non-HiDPI.
 However, since it's designed for 100% screen scaling, it should work on any higher
 DPI, though people using HiDPI devices may give up MacType. I've used it on a 125%
-screen scaling nowadays.
-
-To use this profile you'll need to install the `XHei WP` font family from the
-`IoF` font set:
-
-> https://bbs.themex.net/showthread.php?t=16898387
-
-If you don't want to install the fonts and don't want to use font substitutions,
-then you can turn font substitutions off by setting `FontSubstitutes=0`. You can
-still apply the other settings of this profile to the system font.
-
-In theory, the font rendering settings of this profile can be used with any other
-typeface. Therefore you can replace those `XHei`s substitutions listed in the
-`[FontSubstitutes]` section and `Font` variable in the `[Preview]` section with
-the typeface you want to use. (I've tested fonts other than `XHei WP`, see
-references below)
-
-To use, simply put `chawyehsu.ini` into MacType's `ini` folder then apply it.
+screen scaling nowadays with my 2k display monitor.
 
 ## Screenshots
 
 | Disable | Enable |
 |---------|--------|
-| ![](common-disable.png) | ![](common-enable.png) |
-| ![](directwrite-disable.png) | ![](directwrite-enable.png) |
+| ![common-disable](common-disable.png) | ![common-enable](common-enable.png) |
+| ![directwrite-disable](directwrite-disable.png) | ![directwrite-enable](directwrite-enable.png) |
 
 Note: They were captured under a 125% screen scaling DPI. There were also screenshots,
 which can be found [here][old-screenshots], captured under the standard (100%) DPI.
+
+## Font Substitution
+
+By default no font substitution is used in this profile. However, you may turn
+font substitution on by setting `FontSubstitutes=1`. The profile was designed for
+scenarios where font substitution is enabled.
+
+For example, to use this profile with the `XHei WP` font family from the
+`IoF` font set:
+
+> [https://bbs.themex.net/showthread.php?t=16898387](https://web.archive.org/web/20210517132354/https://bbs.themex.net/showthread.php?t=16898387)
+
+In theory, the core settings of this profile can be used with any other typeface.
+Therefore you can replace those `XHei`s substitutions listed in the
+`[FontSubstitutes]` section and `Font` variable in the `[Preview]` section with
+the typeface you want to use. (I've tested fonts other than `XHei WP`, see
+references below). Please also read the docstrings in the profile file.
 
 ## History
 
@@ -88,7 +93,7 @@ and `XHei WP` and having compatibility tweaks for ClearType.
 
 ### nowadays
 
-After using these new profiles for serveral months, I realized that I prefer
+After using these new profiles for several months, I realized that I prefer
 `WP_Mod.ini`. I was stuck in the profile for a long time util open sourcing
 this repository and releasing the profile. The profile was renamed to
 `chawyehsu.ini` as you can see currently. It has some extras rendering tweaks
@@ -107,10 +112,10 @@ edition).
 
 `XHei WP` is a font combined `Hiragino Sans GB`(`冬青黑体`) with `Segoe WP`.
 `Hiragino Sans GB` is included in macOS as a system bundled font since OS X
-10.6 Snow Leopard. Although it isn't the default font of the system (Simplified 
-Chinese edition), many websites and macOS users perfer it instead of the 
+10.6 Snow Leopard. Although it isn't the default font of the system (Simplified
+Chinese edition), many websites and macOS users prefer it instead of the
 default `华文黑体`. `Hiragino Sans GB` looks better in some aspects. Combining
-with `Segoe UI`'s cousin font `Segoe WP`, `XHei WP` gains a Chinese 
+with `Segoe UI`'s cousin font `Segoe WP`, `XHei WP` gains a Chinese
 script on macOS and a latin script on Windows. And it's tasty for me.
 
 Anything else? Typeface is a interesting field to me. Therefore, I might
@@ -153,13 +158,12 @@ report page, that may help Firefox developers to fix this bug.
 
 The profile is given to the [Public Domain][license-link].
 
-[version-svg]: https://img.shields.io/badge/Version-3.1.0-blue.svg?style=flat-square
+[version-svg]: https://img.shields.io/badge/Version-4.0.0-blue.svg?style=flat&labelColor=121212&color=fcfcfc
 [version-link]: chawyehsu.ini
-[license-svg]: https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat-square
+[license-svg]: https://img.shields.io/github/license/chawyehsu/mactype-profile.svg?style=flat&labelColor=121212&color=fcfcfc
 [license-link]: LICENSE
 [chawyehsu]: https://github.com/chawyehsu
 [mactype-link]: https://github.com/snowie2000/mactype
-[baidupan-link]: https://pan.baidu.com/s/1VKBnGvMHSgzofOe_rythuw
 [old-screenshots]: https://github.com/chawyehsu/mactype-profile/tree/d0dd78bdc9f0ffd7e51facd412eadedddafd8d42
 [windows8-bar]: https://tieba.baidu.com/f?kw=windows8
 [iof-final]: https://bbs.themex.net/showthread.php?t=16898387
